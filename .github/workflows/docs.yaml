@@ -1,0 +1,12 @@
+name: Genera documentazione HTML
+on: [push]
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: mattnotmitt/doxygen-action@v1
+      - name: Generazione documentazione doxygen
+        uses: mattnotmitt/doxygen-action@v1
+        with:
+          additional-packages: font-fira-code
