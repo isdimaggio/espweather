@@ -82,9 +82,30 @@ $(document).ready(function(){initNavTree('namespaceloader.html',''); initResizab
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">loader Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab7962553c8aea7ff7b6f4e631646d28e"><td class="memItemLeft" align="right" valign="top"><a id="ab7962553c8aea7ff7b6f4e631646d28e" name="ab7962553c8aea7ff7b6f4e631646d28e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>fetch</b> ()</td></tr>
+<tr class="separator:ab7962553c8aea7ff7b6f4e631646d28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a37f82d9f7b8a41de692a981e731c6e36"><td class="memItemLeft" align="right" valign="top"><a id="a37f82d9f7b8a41de692a981e731c6e36" name="a37f82d9f7b8a41de692a981e731c6e36"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>config</b> = yaml.load(ymlconfig, Loader=yaml.FullLoader)</td></tr>
+<tr class="separator:a37f82d9f7b8a41de692a981e731c6e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add75d6edb7e67b72c186eec538d6f42d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceloader.html#add75d6edb7e67b72c186eec538d6f42d">sqlink</a></td></tr>
+<tr class="separator:add75d6edb7e67b72c186eec538d6f42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69834345f0da9f9fae6cd321caf2c33c"><td class="memItemLeft" align="right" valign="top"><a id="a69834345f0da9f9fae6cd321caf2c33c" name="a69834345f0da9f9fae6cd321caf2c33c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>q</b> = sqlink.cursor()</td></tr>
+<tr class="separator:a69834345f0da9f9fae6cd321caf2c33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Copyright 2021 Vittorio Lo Mele
 
@@ -99,7 +120,29 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. 
-</pre> </div></div><!-- contents -->
+</pre> </div><h2 class="groupheader">Variable Documentation</h2>
+<a id="add75d6edb7e67b72c186eec538d6f42d" name="add75d6edb7e67b72c186eec538d6f42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add75d6edb7e67b72c186eec538d6f42d">&#9670;&nbsp;</a></span>sqlink</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">loader.sqlink</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span>=  mysql.connector.connect(</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>    host=config[<span class="stringliteral">&quot;db_address&quot;</span>],</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span>    port=config[<span class="stringliteral">&quot;db_port&quot;</span>],</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>    user=config[<span class="stringliteral">&quot;db_user&quot;</span>],</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    password=config[<span class="stringliteral">&quot;db_pass&quot;</span>],</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    database=config[<span class="stringliteral">&quot;db_name&quot;</span>]</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>)</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
