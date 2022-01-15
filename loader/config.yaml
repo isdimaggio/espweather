@@ -1,0 +1,9 @@
+#File di configurazione, inserisci intervallo in secondi su read_interval
+db_address: 10.8.0.1
+db_port: 3306
+db_user: root
+db_pass: root
+db_name: nextcloud
+db_table: meteo
+read_interval: 60
+sensor_endpoint: http://10.0.1.21
